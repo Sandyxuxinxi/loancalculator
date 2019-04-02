@@ -1,0 +1,99 @@
+body {
+  font-size: 15px;
+  font-family: Helvetica;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+.logo-image {
+  height: auto;
+  width: 120px;
+}
+
+.menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: -webkit-sticky;
+  /* Safari */
+  position: sticky;
+  top: 0;
+  display: flex;
+}
+
+.menu-item {
+  float: left;
+  padding: 1rem;
+}
+
+.menu-item a {
+  color: white;
+  text-align: center;
+  /* padding: 14px 16px; */
+  text-decoration: none;
+}
+
+.menu-item a:hover {
+  background-color: #111;
+}
+
+.active {
+  background-color: #4caf50;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.padding-sm {
+  padding: 0.2rem;
+}
+
+.margin-sm {
+  margin: 0.2rem;
+}
+
+.padding-none {
+  padding: 0;
+}
+
+.table-home {
+  border: 1px solid black;
+  margin-bottom: 20px;
+}
+
+.video-home {
+  width: "560";
+  height: "315";
+}
+
+.loanApplication {
+  background-color: #ffebcd;
+}
+
+.wealthManagement {
+  background-color: #00ffff;
+}
+
+.header-home {
+  background-color: #f0f8ff;
+}
+
+.header-newcustomer {
+  background-color: #f0f8ff;
+}
+
+.formfield {
+  display: block;
+  padding: 1rem;
+}
